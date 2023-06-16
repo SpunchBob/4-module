@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(181, 191, 255)
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="backmenu">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>480</y>
+      <width>361</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(172, 177, 214);
+	border-radius: 10px;
+} 
+QPushButton::pressed {
+	background-color : rgb(206, 209, 255);
+	border-radius: 10px;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Menu</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="downbackground">
+    <property name="geometry">
+     <rect>
+      <x>-4</x>
+      <y>460</y>
+      <width>411</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(219, 223, 234)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="upbackground">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>401</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(219, 223, 234)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="count">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>20</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px</string>
+    </property>
+    <property name="text">
+     <string>    0 </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>410</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>110</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ball">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>250</y>
+      <width>21</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-color:rgb(112, 119, 255);
+	border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>downbackground</zorder>
+   <zorder>backmenu</zorder>
+   <zorder>upbackground</zorder>
+   <zorder>count</zorder>
+   <zorder>player</zorder>
+   <zorder>player_2</zorder>
+   <zorder>ball</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

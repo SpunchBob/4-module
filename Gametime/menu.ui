@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(181, 191, 255)
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="first_game">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>361</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(219, 223, 234);;
+	border-radius: 10px;
+} 
+QPushButton::pressed {
+	background-color : rgb(206, 209, 255);
+	border-radius: 10px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Game 1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="second_game">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>320</y>
+      <width>361</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(219, 223, 234);;
+	border-radius: 10px;
+} 
+QPushButton::pressed {
+	background-color : rgb(206, 209, 255);
+	border-radius: 10px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Game 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="third_game">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>410</y>
+      <width>361</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(219, 223, 234);;
+	border-radius: 10px;
+} 
+QPushButton::pressed {
+	background-color : rgb(206, 209, 255);
+	border-radius: 10px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Game 3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>500</y>
+      <width>361</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(172, 177, 214);
+	border-radius: 10px;
+} 
+QPushButton::pressed {
+	background-color : rgb(206, 209, 255);
+	border-radius: 10px;
+}
+
+
+	
+</string>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>381</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 10px</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>361</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Source Sans Pro</family>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(201, 204, 255);
+border-radius: 15px;
+</string>
+    </property>
+    <property name="text">
+     <string>       Gametime</string>
+    </property>
+   </widget>
+   <zorder>background</zorder>
+   <zorder>first_game</zorder>
+   <zorder>second_game</zorder>
+   <zorder>third_game</zorder>
+   <zorder>exit</zorder>
+   <zorder>name</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
