@@ -1,6 +1,6 @@
 word = input("Напишите слово: ")
 
 if word.lower() == word.lower()[::-1]:
-    print("Слово полиндром")
+    print(True)
 else:
-    print("Слово не полиндром")
+    print(False)
